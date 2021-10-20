@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>ASCI Art </h2>
+
+<p id="demo"></p>
+
+<script>
+let text = "";
+
+for (outer = 0; outer < 10; outer++) {
+  text += ("</br>");
+  for (inner = 0; inner < 10; inner++) {
+  	text += ("7 ");
+    }
+}
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
