@@ -1,16 +1,11 @@
-## Welcome to GitHub Pages
+# Welcome to our README file
 
-You can use the [editor on GitHub](https://github.com/florianaewing/GitHubPagesRepoFE/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Project repository for IT 115 Fall 2021
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Students in Team 4 are going to add content to this project.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
+TEMPLATE FOR IDEAS BELOW:
 # Header 1
 ## Header 2
 ### Header 3
