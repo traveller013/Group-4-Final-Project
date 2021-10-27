@@ -17,9 +17,13 @@ Our current testing procedure is to click on each link and check for broken link
 
 ## 🐞 Bug Reports
 
-Report bugs to your group's leader. You can also report bugs here:
+Bugs and errors will be handled by each member, if they ever detect one by themselves. Otherwise, the bugs and errors will be discussed as a group on the discord server.
 
-https://canvas.northseattle.edu/courses/2099198/discussion_topics/13755036
+https://discord.gg/sxkejsTM
+
+Bugs and errors that can’t be handled by the team will then be reported to the instructor, Robert Bunge:
+
+Robert.Bunge@seattlecolleges.edu
 
 ## 🖋️ Code of Conduct
 
