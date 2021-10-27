@@ -38,6 +38,9 @@ As contributors of the project, we compromise to make participation in our proje
 * Communicate and inform updates.
 * Focus on the goals of the project.
 
+# ![image](https://user-images.githubusercontent.com/92065299/139003702-a60bdeef-c5e7-4b3b-a6e2-0a084d4b3eb8.png)
+
+
 ## 🎨 Design Structure
 
 The design structure is described below. 
