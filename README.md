@@ -8,7 +8,7 @@
 TEMPLATE FOR IDEAS BELOW:
 # Header 1
 ## Header 2
-### Header 3
+### ![image](https://user-images.githubusercontent.com/92065299/139003419-5b1a31bf-d144-4def-97ff-d6f6cb721344.png)
 
 - Bulleted
 - List
