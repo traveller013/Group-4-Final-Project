@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>Hello World!</p>
+<p>Which language, besides English, do you wnat us to greet you?</p>
+
+<select id="mySelect" onchange="myFunction()">
+ <option value="Pick one">Pick one
+ <option value="Spanish">Spanish
+ <option value="Chinese">Chinese
+ <option value="Tagalog">Tagalog
+ <option value="Vietnamese">Vietnamese
+ <option value="Arabic">Arabic
+ <option value="French">French
+ <option value="Korean">Korean
+ <option value="Russian">Russian
+ <option value="German">German
+ <option value="Hindi">Hindi
+ <option value="Portuguese">Portuguese
+ <option value="Italian">Italian
+ <option value="Japanese">Japanese
+ <option value="Greek">Greek
+ option value="Other">Other
+</select>
+
+<!-- pseudocode here 
+User will get to pick 3 choices
+First choice results to a message
+For Door 1, it will be a trip and a brand new car
+Second choice also results to a message
+For Door 2, it will be a clover
+Last choice shows an important message
+For Door 3, it will be money!
+ -->
+
+<script>
+function myFunction(){
+
+var choice = document.getElementById("mySelect").value;
+
+var message = "<p>You selected " + choice + ".</p>";
+
+switch (choice) {
+
+ case "Pick one":
+ message += "<p>What are you waiting for? Pick one! </p>";
+ break;
+
+ case "Spanish":
+ message += "<p>¡Hola Mundo! 👋 😃 🇲🇽 </p>";
+ break;
+
+ case "Chinese":
+ message += "<p>你好，世界！(Nǐ hǎo, shìjiè!) 👋 😃 🇨🇳</p>";
+ break;
+
+ case "Tagalog":
+ message += "<p> Kamusta Mundo! 👋 😃 🇵🇭 </p>";
+ break;
+
+ case "Vietnamese":
+ message += "<p>Chào thế giới! 👋 😃 🇻🇳 </p>";
+ break;
+
+ case "Arabic":
+ message += "<p>مرحبا بالعالم! (marhaban bialealami!) 👋 😃 🇦🇪 </p>";
+ break;
+
+ case "French":
+ message += "<p>Bonjour le monde! 👋 😃 🇫🇷 </p>";
+ break;
+
+ case "Korean":
+ message += "<p>안녕하세요 월드입니다! (annyeonghaseyo woldeu-ibnida!) 👋 😃 🇰🇷 </p>";
+ break;
+
+ case "Russian":
+ message += "<p>Привет, мир! (Privet, mir!) 👋 😃 🇷🇺</p>";
+ break;
+
+ case "German":
+ message += "<p>Hallo Welt! 👋 😃 🇩🇪 </p>";
+ break;
+
+ case "Hindi":
+ message += "<p>हैलो वर्ल्ड! (hailo varld!) 👋 😃 🇮🇳</p>";
+ break;
+
+ case "Portuguese":
+ message += "<p>Olá Mundo! 👋 😃 🇵🇹</p>";
+ break;
+
+ case "Italian":
+ message += "<p>Ciao mondo! 👋 😃 🇮🇹 </p>";
+ break;
+
+ case "Japanese":
+ message += "<p>こんにちは世界 (Kon'nichiwa sekai) 👋 😃 🇯🇵</p>";
+ break;
+
+ case "Greek":
+ message += "<p>Γειά σου Κόσμε! (Geiá sou Kósme!) 👋 😃 🇬🇷</p>";
+ break;
+
+ default:
+ message += "<p> We sincerely apologize for the inconvenience that we don't have the language you are currently looking for! We are working on it! </p>";
+ break;
+ }
+
+document.getElementById("demo").innerHTML = message;
+
+}
+
+</script>
+
+<p id="demo"></p>
+
+</body>
+</html>
