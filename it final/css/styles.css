@@ -1,7 +1,8 @@
-* {padding:0;
-    margin:0;
+* {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
-    }
+}
 p {
     width: 30%;
     margin: 0 auto;
@@ -10,68 +11,68 @@ p {
 }
     /* all site formatting  */
 
- body{/*site background setting*/
+ body{/* site background setting */
      background-color: antiquewhite;
-    /* background-image:url();	 */ 
+    /* background-image:url(); */ 
     font-family: 'Times New Roman', Times, serif;
  }
- div#wrapper{/**/
+ div#wrapper {
     width:940px;
-    margin: 20px auto 20px auto;
+    margin: 20px auto;
 }
 div#inner-header {
     width: 100%;
-    margin:0 auto;
+    margin: 0 auto;
 }
-.inner-header img{
-    width:75px;
+.inner-header img {
+    width: 75px;
     background: seagreen;
 }
 
  /* navagation tabs setting below */
-header{
+header {
     width: 100%;
     top: 0%;
     left: 0%;
-    background: rgb(255,255,255,.95);
+    background: rgb(255,255,255,95%);
 }   
-nav{height:50px;
+nav {height: 50px;
     line-height: 50px;
     background:rgb(98, 165, 219);
 }
-nav li{
+nav li {
     list-style-type: none;
     float:left;
     width: 25%;
     text-align: center;
 }
-nav a{
+nav a {
     text-decoration: none;
-    display:block;
+    display: block;
 }
-nav a:hover{
-    background:teal;
-    color:white;
+nav a:hover {
+    background: teal;
+    color: white;
 }   
             /* middle */
-main{
-    width:428px;
+main {
+    width: 428px;
     background: rgb(49, 11, 85);
     margin-top: 16px;
-    float:left;
-    padding:10px;
+    float: left;
+    padding: 10px;
     height: 100%;
 }
-aside{
-    width:472px;
+aside {
+    width: 472px;
     background: rgb(84, 81, 241);
     margin-top: 16px;
-    float:right;
-    padding:10px;
+    float: right;
+    padding: 10px;
     height: 100%;
 }
-aside img{
-    width:150px;
+aside img {
+    width: 150px;
     margin: 0 auto;
 }
 /* Blanket row formatting */
@@ -85,43 +86,43 @@ aside img{
     color: rgb(229, 147, 175);
 }
 /* specific row formatting */
-div#section_2{
-    width:430px;
-    float:right;
-    clear:right;
+div#section_2 {
+    width: 430px;
+    float: right;
+    clear: right;
     background: rgb(49, 11, 85);
-    padding:10px;
+    padding: 10px;
     height: 100%;
 }
-div#section_3{
-    width:470px;
-    float:left;
-    clear:left;
+div#section_3 {
+    width: 470px;
+    float: left;
+    clear: left;
     background:rgb(84, 81, 241);
     padding: 10px;
     height: 100%;
 }
-div#section_2r{
-    width:428px;
-    float:left;
-    clear:left;
+div#section_2r {
+    width: 428px;
+    float: left;
+    clear: left;
     background: rgb(49, 11, 85);
-    padding:10px;
+    padding: 10px;
     height: 100%;
 }
-div#section_3r{
-    width:472px;
-    float:right;
-    clear:right;
+div#section_3r {
+    width: 472px;
+    float: right;
+    clear: right;
     background:rgb(84, 81, 241);
     padding: 10px;
     height: 100%;
 }
-div#section_2 p{
+div#section_2 p {
     width: 328px;
     margin: 0 auto;
     text-align: center;
-    color:rgb(11, 199, 199)
+    color: rgb(11, 199, 199)
     
 }
             /* bottom */
@@ -132,19 +133,20 @@ footer {
     clear:both;
     color:white;
 }
-footer a{
+footer a {
     text-decoration: none;   
 }
-footer li{
+footer li {
     list-style: none;
-    float:left;
-    margin-right:15px;
+    float: left;
+    margin-right: 15px;
     line-height: 50px;
     padding-left: 10px;
 }
-footer a{color:white;}
+footer a {color:white;}
 img {
     max-width: 100%;
-    display:block;
+    display: block;
 }
-/*testing for super lint*/
+
+/* testing for super lint */
