@@ -14,7 +14,7 @@ p {
 
  body{/* site background setting */
    background-color: antiquewhite;
-    /* background-image:url(); */ 
+    /* background-image:url(../background.jpg); */ 
    font-family: 'Times New Roman', Times, serif;
  }
  div#wrapper {
@@ -67,7 +67,7 @@ main {
   width: 428px;
   background: rgb(49, 11, 85);
   margin-top: 16px;
-  float: left;
+/*   float: left; */
   padding: 10px;
   height: 100%;
 }
@@ -75,7 +75,7 @@ aside {
   width: 472px;
   background: rgb(84, 81, 241);
   margin-top: 16px;
-  float: right;
+/*   float: right; */
   padding: 10px;
   height: 100%;
 }
@@ -87,6 +87,9 @@ aside img {
 .row{
   height: 400px;
 }
+div#white{
+background: white;
+}
 .blue {
   color: rgb(63, 209, 219);
 }
@@ -97,33 +100,33 @@ aside img {
 /* specific row formatting */
 
 div#section_2 {
-  width: 430px;
-  float: right;
-  clear: right;
+  width: 405px;
+/*   float: right;
+  clear: right; */
   background: rgb(49, 11, 85);
   padding: 10px;
   height: 100%;
 }
 div#section_3 {
-  width: 470px;
-  float: left;
-  clear: left;
+  width: 445px;
+/*   float: left;
+  clear: left; */
   background: rgb(84, 81, 241);
   padding: 10px;
   height: 100%;
 }
 div#section_2r {
-  width: 428px;
-  float: left;
-  clear: left;
+  width: 403px;
+/*   float: left;
+  clear: left; */
   background: rgb(49, 11, 85);
   padding: 10px;
   height: 100%;
 }
 div#section_3r {
-  width: 472px;
-  float: right;
-  clear: right;
+  width: 447px;
+/*   float: right;
+  clear: right; */
   background: rgb(84, 81, 241);
   padding: 10px;
   height: 100%;
