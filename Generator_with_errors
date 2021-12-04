@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Unit Test</h1>
+<h2>Random Hello Program</h2>
+<p id="demo"></p>
+<script>
+
+//Function to generate a random output from an array
+function getRandomHello(arr) {
+    // get random index value
+    const randomIndex = Math.floor(Math.random() * arr.length);
+    // get random item
+    < const item = arr[randomIndex];
+    return item;
+}
+
+//The array below holds hellos from twenty languages. The following list of 
+//languages corresponds in sequence to the string items found in the array: 
+
+//English,Spanish,French,Hawaiian,Chinese,German,Russian,Maltese,Latin, 
+//Maori,Indonesian,Georgian,Malagasay,Nepali,Swahili,Samoan,Hindi,Portuguese,
+//Somalian,Croatian
+
+
+const array = ['Hello','Hola','Bonjour','Aloha','Nihao','Guten tag','Privet','Bongu', "\n",'Konnichiwa', 'Salve','Kia Ora','Halo','Gamarjoba','Salama','Namaskāra',"\n",
+'Hujambo','Talofa','Namaste','Olá','Haye','Zdravo', '];
+const result = getRandomHello(array);
+console.log(result);
+
+alert(result)
+
+// This code is by Florian Ewing 11.17.2021
+</script>
+</body>
+
+
